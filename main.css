@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/409/426/desktop-wallpaper-rick-and-morty-portal-transparent-rick-and-morty-portal-rick-and-morty-portal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(9, 10, 9);
+    text-align: center;
+}
+
+.green-dot {
+    background-color: #009500;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.red-dot {
+    background-color: #c71515;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.grey-dot {
+    background-color: #808080;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    font-size: 25px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.ch-images {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ch-images img {
+    width: 50%;
+    height: auto;
+    margin-left: 5px;
+    border: black 2px solid;
+}
